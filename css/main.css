@@ -98,9 +98,14 @@ div.park {
     background-color: hsla(120, 100%, 25%, 0.2);
 }
 
-div.beach {
+div.beach_official {
     /*background-color: #6d6dff;*/
     /*background-color: #b5b5ff;*/
+    background-color: #03A9F4;
+}
+
+div.beach_unofficial {
+    /*background-color: #009688;*/
     background-color: #abcdef;
 }
 

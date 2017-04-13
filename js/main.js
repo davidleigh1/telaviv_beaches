@@ -1,10 +1,10 @@
 tlv_data = [
 {
 	"he": {
-		"name": "<b>צוק</b> צפון - הגבול עם הרצליה",
+		"name": "צוק צפון - הגבול עם הרצליה",
 		"notes/access": "חוף אסור לרחצה",
 	},
-	"name": "<b>HaTzuk</b> North - Border with Hertzilya",
+	"name": "Hertzilya to HaTzuk",
 	"lat": "32.14511531",
 	"lon": "34.79235336",
 	"aka": "",
@@ -21,14 +21,14 @@ tlv_data = [
 	"is_official": false,
 	"has_gates": false,
 	"vehicle_access": false,
-	"type": "beach"
+	"type": "beach_unofficial"
 },{
 	"he":{
-		"name": "<b>הצוק</b> צפון - מנדרין",
+		"name": "<b>הצוק צפון - מנדרין</b>",
 		"hotels": "מלון מנדרין",
 		"close_streets": "יוניצ'מן ",
 	},
-	"name": "<b>HaTzuk</b> North / Mandarin",
+	"name": "<b>HaTzuk North / Mandarin</b>",
 	"lat": "32.14366638",
 	"lon": "34.79220048",
 	"aka": "",
@@ -45,15 +45,15 @@ tlv_data = [
 	"is_official": true,
 	"has_gates": false,
 	"vehicle_access": false,
-	"type": "beach"
+	"type": "beach_official"
 },{
 	"he": {
-		"name": "<b>הצוק</b> דרום - סי אנד סאן",
+		"name": "<b>הצוק דרום - סי אנד סאן</b>",
 		"aka": "חוף הצוק הדרומי",
 		"cross_street": "סאמט שמעון",
 		"close_streets": "רוזנבלום הרצל ד\"ר",
 	},
-	"name": "<b>HaTzuk</b> South / Sea and Sun",
+	"name": "<b>HaTzuk South / Sea and Sun</b>",
 	"lat": "32.14007574",
 	"lon": "34.79108065",
 	"aka": "",
@@ -70,15 +70,15 @@ tlv_data = [
 	"is_official": true,
 	"has_gates": true,
 	"vehicle_access": false,
-	"type": "beach"
+	"type": "beach_official"
 },{
 	"he": {
-		"name": "<b>תל ברוך</b> צפון"
+		"name": "תל ברוך צפון"
 	},
-	"name": "<b>Tel Baruch</b> North to HaTzuk",
+	"name": "HaTzuk to Tel Baruch",
 	"lat": "32.13101336",
 	"lon": "34.78767693",
-	"aka": "Sand dunes between Tel Baruch and HaTzuk South / Sea and Sun",
+	"aka": "Sand dunes between Tel Baruch (S) and HaTzuk South / Sea and Sun (N)",
 	"type_order": "",
 	"overall_order": "",
 	"cross_street": "",
@@ -92,7 +92,7 @@ tlv_data = [
 	"is_official": false,
 	"has_gates": false,
 	"vehicle_access": false,
-	"type": "beach"
+	"type": "beach_unofficial"
 },{
 	"he": {
 		"name": "<b>תל ברוך</b>",
@@ -115,40 +115,15 @@ tlv_data = [
 	"is_official": true,
 	"has_gates": false,
 	"vehicle_access": true,
-	"type": "beach"
+	"type": "beach_official"
 },{
 	"he": {
 		"name": "<b>תל ברוך</b> כלבים"
 	},
-	"name": "Tel Baruch Dog (South)",
+	"name": "Tel Baruch Dog Beach (South of Tel Baruch)",
 	"lat": "",
 	"lon": "",
-	"type": "beach"
-},{
-	"he": {
-		"name": ""
-	},
-	"name": "<b>Sde Dov</b> Promenade<br>(from North via Tel Baruch)",
-	"lat": "32.11924682",
-	"lon": "34.78222668",
-	"type": "beach"
-},{
-	"he": {
-		"name": ""
-	},
-	"name": "<b>Sde Dov</b> Promenade<br>(from South via Namal Tel Aviv)",
-	"lat": "32.10404348",
-	"lon": "34.77670133",
-	"type": "beach"
-},{
-	"he": {
-		"name": ""
-	},
-	"name": "<b>Reading</b> Power Station",
-	"lat": "32.10288472",
-	"lon": "34.77779835",
-	"aka": "Tachanat Koach, תחנת הכוח רדינג, Pedestrian Bridge",
-	"type": "landmark",
+	"aka": "",
 	"type_order": "",
 	"overall_order": "",
 	"cross_street": "",
@@ -161,7 +136,74 @@ tlv_data = [
 	"has_lifeguard": "",
 	"is_official": "",
 	"has_gates": "",
-	"vehicle_access": ""
+	"vehicle_access": "",
+	"type": "beach_unofficial"
+},{
+	"he": {
+		"name": ""
+	},
+	"name": "Sde Dov Promenade<br>(access from North via Tel Baruch)",
+	"lat": "32.11924682",
+	"lon": "34.78222668",
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_unofficial"
+},{
+	"he": {
+		"name": ""
+	},
+	"name": "Sde Dov Promenade<br>(access from South via Namal Tel Aviv)",
+	"lat": "32.10404348",
+	"lon": "34.77670133",
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_unofficial"
+},{
+	"he": {
+		"name": ""
+	},
+	"name": "Reading Power Station",
+	"lat": "32.10288472",
+	"lon": "34.77779835",
+	"aka": "Tachanat Koach, תחנת הכוח רדינג, Pedestrian Bridge",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",
+	"type": "landmark"
 },{
 	"he": {
 		"name": "נמל תל אביב"
@@ -183,12 +225,12 @@ tlv_data = [
 	"is_official": "",
 	"has_gates": "",
 	"vehicle_access": "",
-	"type": "landmark",
+	"type": "landmark"
 },{
 	"he": {
 		"name": "מציצים"
 	},
-	"name": "Metzitzim",
+	"name": "<b>Metzitzim</b>",
 	"lat": "32.09387091",
 	"lon": "34.77124169",
 	"aka": "",
@@ -205,12 +247,12 @@ tlv_data = [
 	"is_official": true,
 	"has_gates": false,
 	"vehicle_access": true,
-	"type": "beach"
+	"type": "beach_official"
 },{
 	"he": {
 		"name": "הנפרד/הדתיים (נורדאו)"
 	},
-	"name": "Religious / Nordau",
+	"name": "<b>Religious / Nordau</b>",
 	"lat": "32.09309378",
 	"lon": "34.77127656",
 	"aka": "Separated Separate Segregated Religious Beach",
@@ -227,7 +269,7 @@ tlv_data = [
 	"is_official": true,
 	"has_gates": true,
 	"vehicle_access": true,
-	"type": "beach"
+	"type": "beach_official"
 },{
 	"he": {
 		"name": ""
@@ -254,7 +296,7 @@ tlv_data = [
 	"he": {
 		"name": "הילטון - הכלבים"
 	},
-	"name": "Hilton - Dogs",
+	"name": "<b>Hilton - Dogs</b>",
 	"lat": "",
 	"lon": "",
 	"aka": "HaKlavim",
@@ -271,12 +313,12 @@ tlv_data = [
 	"is_official": false,
 	"has_gates": false,
 	"vehicle_access": "??",
-	"type": "beach"
+	"type": "beach_unofficial"
 },{
 	"he": {
 		"name": "הילטון - גיי / העצמאות"
 	},
-	"name": "Hilton - Gay / HaAtzmaut",
+	"name": "<b>Hilton - Gay / HaAtzmaut</b>",
 	"lat": "",
 	"lon": "",
 	"aka": "Atzmaut Independence",
@@ -293,12 +335,12 @@ tlv_data = [
 	"is_official": "",
 	"has_gates": "",
 	"vehicle_access": "",
-	"type": "beach"
+	"type": "beach_official"
 },{
 	"he": {
 		"name": "הילטון - הגולשים"
 	},
-	"name": "Hilton - Surfers",
+	"name": "<b>Hilton - Surfers</b>",
 	"lat": "",
 	"lon": "",
 	"aka": "HaGolshim",
@@ -315,7 +357,7 @@ tlv_data = [
 	"is_official": "",
 	"has_gates": "",
 	"vehicle_access": "",
-	"type": "beach"
+	"type": "beach_official"
 },{
 	"he": {
 		"name": "גן העצמאות (דרום)"
@@ -342,69 +384,178 @@ tlv_data = [
 	"he": {
 		"name": "גורדון"
 	},
-	"name": "Gordon",
+	"name": "<b>Gordon</b>",
 	"lat": "",
 	"lon": "",
-	"type": "beach"
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_official"
 },{
 	"he": {
 		"name": "פרישמן"
 	},
-	"name": "Frishman",
+	"name": "<b>Frishman</b>",
 	"lat": "",
 	"lon": "",
-	"type": "beach"
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_official"
 },{
 	"he": {
 		"name": "בוגרשוב"
 	},
-	"name": "Bograshov",
+	"name": "<b>Bograshov</b>",
 	"lat": "",
 	"lon": "",
-	"type": "beach"
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_official"
 },{
 	"he": {
 		"name": "טרומפלדור"
 	},
-	"name": "Trumpeldor",
+	"name": "<b>Trumpeldor</b>",
 	"lat": "",
 	"lon": "",
-	"type": "beach"
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_official"
 },{
 	"he": {
 		"name": "ירושלים (אלנבי)"
 	},
-	"name": "Jerusalem",
+	"name": "<b>Jerusalem</b>",
 	"lat": "",
 	"lon": "",
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
 	"cross_street": "Alenby Allenby",
 	"close_streets": "",	
-	"type": "beach"
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_official"
 },{
 	"he": {
 		"name": "גאולה"
 	},
-	"name": "Geula",
+	"name": "<b>Geula</b>",
 	"lat": "",
 	"lon": "",
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
 	"cross_street": "Geula גאולה",
-	"type": "beach"
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_official"
 },{
 	"he": {
-		"name": "אביב / Banana"
+		"name": "<b>אביב / Banana</b>"
 	},
-	"name": "Banana / Aviv",
+	"name": "<b>Banana / Aviv</b>",
 	"lat": "",
 	"lon": "",
-	"type": "beach"
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_official"
 },{
 	"he": {
-		"name": "חוף המתופפים"
+		"name": "<b>חוף המתופפים</b>"
 	},
-	"name": "Drum / Tupim",
+	"name": "<b>Drum / Tupim</b>",
 	"lat": "",
 	"lon": "",
-	"type": "beach"
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_official"
 },{
 	"he": {
 		"name": "צ'ארלס קלור (צפון)"
@@ -413,7 +564,6 @@ tlv_data = [
 	"lat": "",
 	"lon": "",
 	"aka": "Gan Charles Klore South, Claude Clor",
-	"type": "park",
 	"type_order": "",
 	"overall_order": "",
 	"cross_street": "",
@@ -426,7 +576,8 @@ tlv_data = [
 	"has_lifeguard": "",
 	"is_official": "",
 	"has_gates": "",
-	"vehicle_access": ""
+	"vehicle_access": "",
+	"type": "park"
 },{
 	"he": {
 		"name": ""
@@ -435,7 +586,6 @@ tlv_data = [
 	"lat": "",
 	"lon": "",
 	"aka": "Gan Charles Klore South, Claude Clor",
-	"type": "restaurant",
 	"type_order": "",
 	"overall_order": "",
 	"cross_street": "HaMered",
@@ -448,15 +598,30 @@ tlv_data = [
 	"has_lifeguard": "",
 	"is_official": "",
 	"has_gates": "",
-	"vehicle_access": ""
+	"vehicle_access": "",
+	"type": "restaurant"
 },{
 	"he": {
 		"name": ""
 	},
-	"name": "Alma",
+	"name": "<b>Alma</b>",
 	"lat": "",
 	"lon": "",
-	"type": "beach"
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_official"
 },{
 	"he": {
 		"name": ""
@@ -464,6 +629,20 @@ tlv_data = [
 	"name": "Alma Dog",
 	"lat": "",
 	"lon": "",
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
 	"type": "dog-beach"
 },{
 	"he": {
@@ -494,7 +673,21 @@ tlv_data = [
 	"name": "Homat HaYam Promenade",
 	"lat": "",
 	"lon": "",
-	"type": "beach"
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_unofficial"
 },{
 	"he": {
 		"name": ""
@@ -502,7 +695,21 @@ tlv_data = [
 	"name": "Retsif ha-Aliya ha-Shniya",
 	"lat": "",
 	"lon": "",
-	"type": "beach"
+	"aka": "",
+	"type_order": "",
+	"overall_order": "",
+	"cross_street": "",
+	"close_streets": "",
+	"approx_address": "",
+	"restaurants": "",
+	"hotels": "",
+	"notes/access": "",
+	"landmarks": "",
+	"has_lifeguard": "",
+	"is_official": "",
+	"has_gates": "",
+	"vehicle_access": "",	
+	"type": "beach_unofficial"
 },{
 	"he": {
 		"name": ""
@@ -529,10 +736,10 @@ tlv_data = [
 	"he": {
 		"name": ""
 	},
-	"name": "Yafo / Gan Hamidron",
+	"name": "Midron Park",
 	"lat": "",
 	"lon": "",
-	"aka": "",
+	"aka": "Yafo Gan Hamidron",
 	"type_order": "",
 	"overall_order": "",
 	"cross_street": "",
@@ -546,15 +753,15 @@ tlv_data = [
 	"is_official": false,
 	"has_gates": false,
 	"vehicle_access": false,
-	"type": "beach"
+	"type": "beach_unofficial"
 },{
 	"he": {
 		"name": "גבעת עלייה"
 	},
-	"name": "Givat Aliya",
+	"name": "<b>Givat Aliya</b>",
 	"lat": "",
 	"lon": "",
-	"aka": "",
+	"aka": "Yafo",
 	"type_order": "",
 	"overall_order": "",
 	"cross_street": "Shtei HaAkhayot (N) Kidron (S)" ,
@@ -568,7 +775,7 @@ tlv_data = [
 	"is_official": true,
 	"has_gates": false,
 	"vehicle_access": true,
-	"type": "beach"
+	"type": "beach_official"
 }
 ];
 
@@ -618,8 +825,11 @@ createTableFromData = function (data) {
 		// tableHtml += currentRowHtml;
 
 		switch( data[i].type ) {
-		case 'beach':
+		case 'beach_official':
 			placeIcon = "beach.png"
+			break;
+		case 'beach_unofficial':
+			placeIcon = "waves.png"
 			break;
 		case 'park':
 			placeIcon = "park.png"
@@ -702,7 +912,7 @@ $( document ).ready(function() {
 
 	/* Simulate effect of click to hide the non-selected language */
 		if ( !$('html').attr('lang') ){
-			updateLang("he");
+			updateLang("en");
 		}
 
 	/* EVENT HANDLERS */
